@@ -31,28 +31,28 @@ publishTo := {
 
 publishArtifact in Test := false
 
-pomIncludeRepository := { _ => false }
+/* pomIncludeRepository := { _ => false } */
 
-pomExtra := (
-    <url>https://github.com/Nycto/Hasher</url>
-    <licenses>
-        <license>
-            <name>MIT</name>
-            <url>https://opensource.org/licenses/MIT</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
-    <scm>
-        <url>git@github.com:Nycto/Hasher.git</url>
-        <connection>scm:git:git@github.com:Nycto/Hasher.git</connection>
-    </scm>
-    <developers>
-        <developer>
-            <id>Nycto</id>
-            <name>James Frasca</name>
-            <url>http://roundeights.com</url>
-        </developer>
-    </developers>)
+/* pomExtra := ( */
+/*     <url>https://github.com/Nycto/Hasher</url> */
+/*     <licenses> */
+/*         <license> */
+/*             <name>MIT</name> */
+/*             <url>https://opensource.org/licenses/MIT</url> */
+/*             <distribution>repo</distribution> */
+/*         </license> */
+/*     </licenses> */
+/*     <scm> */
+/*         <url>git@github.com:Nycto/Hasher.git</url> */
+/*         <connection>scm:git:git@github.com:Nycto/Hasher.git</connection> */
+/*     </scm> */
+/*     <developers> */
+/*         <developer> */
+/*             <id>Nycto</id> */
+/*             <name>James Frasca</name> */
+/*             <url>http://roundeights.com</url> */
+/*         </developer> */
+/*     </developers>) */
 
 // Application dependencies
 libraryDependencies ++= Seq(
